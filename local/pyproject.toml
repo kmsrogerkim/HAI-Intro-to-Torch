@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gan"
+version = "0.1.0"
+description = ""
+authors = ["rogerkimjazzlover <minseungkim1017@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+matplotlib = "^3.10.1"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
